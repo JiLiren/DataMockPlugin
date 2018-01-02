@@ -114,6 +114,10 @@ public class MockDialog extends JFrame {
             new InputMange(mFile,mClass,mNodeBean).execute();
             dispose();
         });
+
+        mNegativeBtn.addActionListener( e -> {
+            dispose();
+        });
     }
 
     private DefaultMutableTreeTableNode createData(NodeBean bean) {
