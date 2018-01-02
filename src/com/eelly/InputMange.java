@@ -30,6 +30,7 @@ public class InputMange extends WriteCommandAction.Simple {
         mClass = clazz;
         mProject = clazz.getProject();
         mFactory = JavaPsiFacade.getElementFactory(mProject);
+
         mBean = bean;
     }
 
